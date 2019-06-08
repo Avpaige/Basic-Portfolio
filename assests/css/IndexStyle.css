@@ -6,6 +6,8 @@ body {
     padding:0;
 
     margin:0;
+
+    background-image: url(assests/images/back.png);
   }
 
 .regfont {
@@ -43,7 +45,7 @@ body {
 
     width: 200px;
 
-    height: 100px;
+    height: 69px;
     
     background-color: #4aaaa5;
 
@@ -55,8 +57,12 @@ body {
 
     font-family: Georgia, 'Times New Roman', Times, serif;
 
+    float: left;
+    
+    position: absolute;
+    right: 915px;
 
-}
+     }
 
 .container {
 
@@ -73,14 +79,32 @@ body {
     font-size: large;
 
     line-height:2.0;
-    
+
+     
 }
 
-.container h1 {
+h1 {
 
     margin: 0;
 
     padding: 0;
+
+    color: #4aaaa5;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container3 {
+
+    width: 100%;
+
+    height:500px;
+
+    position: fixed;
+
+    bottom: 20;
+
+    background: #4aaaa5;
 }
 
 .footer {
@@ -91,7 +115,7 @@ body {
 
     background-color: #666666;
    
-    height: 75px;
+    height: 50px;
 
     position: fixed;
 
@@ -101,18 +125,15 @@ body {
 
     width: 100%;
 
-    text-align: center;   
+    text-align: center; 
+
+   
+      
 }
 
 .copyright {
 
     width:200px;height:200px;
-
-}
-
-body {
-
-    background-image: url(assests/images/back.png);
 
 }
 
