@@ -41,8 +41,6 @@ body {
 
 .container2 {
 
-    position: left;
-
     width: 200px;
 
     height: 69px;
@@ -58,13 +56,15 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 
     float: left;
+
+    margin-left: 775px;
     
-    position: absolute;
-    right: 915px;
 
      }
 
 .container {
+    clear: both;
+    overflow: auto;
 
     width: 960px;
 
@@ -79,6 +79,8 @@ body {
     font-size: large;
 
     line-height:2.0;
+
+    padding: 25px 10px 30px 20px;
 
      
 }
@@ -107,6 +109,11 @@ h1 {
     background: #4aaaa5;
 }
 
+p {
+
+    padding: 25px 10px 30px 20px;
+}
+
 .footer {
 
     color: white; 
@@ -117,7 +124,7 @@ h1 {
    
     height: 50px;
 
-    position: fixed;
+    position: relative;
 
     left: 0;
 
@@ -127,6 +134,7 @@ h1 {
 
     text-align: center; 
 
+   padding: 10px 10px 30px 20px;
    
       
 }
