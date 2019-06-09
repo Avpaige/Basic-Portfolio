@@ -1,5 +1,5 @@
 
-body {
+html {
     background-color:#cccccc;
     background-image: url("assests/images/back.png");
   }
@@ -26,6 +26,7 @@ body {
     height: 100px;
     position: relative;
     top: 0;
+    padding: 25px 10px 30px 20px; 
 }
 
 .name  {
@@ -42,20 +43,127 @@ body {
     bottom: -30px;
     }
 
+.menulinks {
+    float: left;
+    position: relative;
+    left: 675px;
+    bottom: -40px;
+}
+
 .wrapper {
     clear: both;
     overflow: auto;
     width: 960px;
     height: 960px;
     background-color: #ffffff;
-    margin: 0 auto;
-    margin-top: 100px;
+    padding: 10px 10px 30px 20px; 
+    margin: 200px;
+    margin-right: 150px;
+
 }
 
-.menulinks {
-
-    float: left;
+h1{
+    color: #4aaaa5;
     position: relative;
-    left: 675px;
-    bottom: -40px;
+    top: -10px;
 }
+
+.break {
+    height: 2px;
+    width: 950px;
+    background-color: gray;
+    margin-bottom: 50px
+
+}
+
+.prod {
+    float:left;
+    width: 200px;
+    height: 200px;
+    background-color: #931212;
+    color: white;
+    margin-right: 50px;
+    z-index: 1;
+    
+
+
+}
+
+.mrk {
+    float:left;
+    width: 200px;
+    height: 200px;
+    background-color: #931212;
+    color: white;
+
+}
+
+.invis {
+
+    clear:both;
+    overflow:auto;
+    width: 800px
+    
+}
+
+.boxesrow1 {
+    margin-bottom: 50px;
+}
+
+.vlt {
+
+    float:left;
+    width: 200px;
+    height: 200px;
+    background-color: #931212;
+    color: white;
+    
+}
+
+
+.edu {
+    float:left;
+    width: 200px;
+    height: 200px;
+    background-color: #931212;
+    color: white;
+    margin-right: 50px;
+
+}
+
+.invis {
+
+    clear:both;
+    overflow:auto;
+    width: 800px
+}
+
+.boxesrow2 {
+    margin-bottom: 50px;
+}
+
+.Other {
+    margin-top: 50px;
+    float:left;
+    width: 200px;
+    height: 200px;
+    background-color: #931212;
+    color: white;
+
+}
+
+
+.footer {
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666666;
+    height: 60px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; 
+    padding: 10px 10px 30px 20px;
+}
+
+
