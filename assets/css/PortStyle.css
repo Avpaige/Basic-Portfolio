@@ -23,12 +23,15 @@ html {
     background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777; 
-    width: 100%;
+    width: 960px;
     height: 100px;
     position: relative;
+    
     top: 0;
     padding: 25px 10px 30px 20px; 
+
 }
+
 
 .name  {
     float: left;
