@@ -1,7 +1,7 @@
 
 html {
     background-color:#cccccc;
-    background-image: url("assests/images/back.png");
+    background-image: url("../images/back.png");
     height: 100vh;
   }
 
@@ -64,10 +64,14 @@ html {
 
 }
 
+/* Portfolio Header*/
+
 h1{
     color: #4aaaa5;
     position: relative;
     top: -10px;
+    font-size: 35px;
+    font-style: bold;
 }
 
 .break {
@@ -78,13 +82,15 @@ h1{
 
 }
 
+/* Picture Blocks*/
 .prod {
     float:left;
     width: 200px;
     height: 200px;
-    background-image: url("assests/images/production.jpg");
-    color: black;
     margin-right: 50px;
+    background-image: url("../images/production.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
         
 }
 
@@ -92,8 +98,11 @@ h1{
     float:left;
     width: 200px;
     height: 200px;
-    background-image: url("assests/images/survey.jpg");
+    background-image: url("../images/survey.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
     color: black;
+    background-color: white;
 
 }
 
@@ -114,7 +123,9 @@ h1{
     float:left;
     width: 200px;
     height: 200px;
-    background-image: url("assests/images/trevor.jpg");
+    background-image: url("../images/trevor.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
     color: black;
     
 }
@@ -124,7 +135,9 @@ h1{
     float:left;
     width: 200px;
     height: 200px;
-    background-image: url("assests/images/temple.jpg");
+    background-image: url("../images/temple.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
     color: black;
     margin-right: 50px;
 
@@ -146,7 +159,9 @@ h1{
     float:left;
     width: 200px;
     height: 200px;
-    background-image: url("assests/images/work.jpg");
+    background-image: url("../images/work.jpg");
+    background-size: 175%;
+    background-repeat: no-repeat;
     color: black;
 
 }
@@ -166,4 +181,15 @@ h1{
     border-top: 8px solid #4aaaa5
 }
 
+.label {
 
+    width: 200px;
+    height: 55px;
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    bottom: -125px;
+    text-align: center;
+    font-size: 20px;
+    
+}

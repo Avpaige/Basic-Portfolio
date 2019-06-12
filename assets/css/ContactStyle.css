@@ -1,7 +1,7 @@
 
 html {
-  background-color:#cccccc;
-  background-image: url("../assests/images/back.png");
+  background-color:hsl(0, 0%, 80%);
+  background-image: url("../images/back.png");
   height: 100vh;
 }
 
