@@ -25,17 +25,18 @@ html {
   background-color: #4aaaa5;
   color: white;
   text-align: center;
-  font-size:25px;
+  font-size:22px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   position: relative;
   right: -200px;
   bottom: -60px;
+  font-weight:bold;
   }
 
 .menulinks {
   float: left;
   position: relative;
-  left: 800px;
+  left: 825px;
   bottom: -75px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
@@ -62,6 +63,7 @@ h1{
     top: -10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
+    font-weight:bold;
 }
 
 
